@@ -10,7 +10,7 @@ namespace applicationlogs.Controllers
     {
         public ActionResult Index()
         {
-            System.Diagnostics.Trace.TraceInformation("homecontroller->index");
+            System.Diagnostics.Trace.TraceInformation(" my homecontroller->index");
             return View();
         }
 
